@@ -70,7 +70,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 namespace choreograph
 {
 
-const double PI = 3.14159265358979323846;
+#ifndef PI
+#define PI 3.14159265358979323846
+#endif
+    
+//const double PI = 3.14159265358979323846;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // None
